@@ -1,0 +1,10 @@
+* git status → sirve para ver el estado actual. Te dice qué archivos has modificado, cuáles están listos para el commit y cuáles no estás rastreando todavía.
+
+* git add → prepara los cambios. Imagina que estás tomando una foto: este comando selecciona qué archivos quieres incluir en la toma. Se conoce como mover los archivos al staging area. 
+Normalmente usarás git add . para incluir todo lo nuevo.
+
+* git commit → guarda una captura permanente. Siguiendo la analogía de la foto, aquí es cuando disparas la cámara. 
+Guarda los cambios que preparaste en el paso anterior en el historial del proyecto. Siempre debes añadir un mensaje descriptivo, por ejemplo: git commit -m "corrección de errores en el login".
+
+* git log → muestra el historial de confirmaciones. Es el álbum de fotos. Te permite ver quién hizo qué y cuándo, mostrando una lista de todos los commits realizados en el pasado.
+
